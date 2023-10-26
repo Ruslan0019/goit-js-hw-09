@@ -26,7 +26,7 @@ document.querySelector('.form').addEventListener('submit', function (e) {
     createPromise(i, currentDelay)
       .then(({ position, delay }) => {
         console.log(`✅ Fulfilled promise ${position} in ${delay}ms`);
-        // Використовуй notiflix для відображення повідомлень:
+        
         Notiflix.Notify.success(`✅ Fulfilled promise ${position} in ${delay}ms`);
       })
       .catch(({ position, delay }) => {

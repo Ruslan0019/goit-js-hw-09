@@ -30,7 +30,7 @@ function stopColorSwitcher() {
 
     intervalId = clearInterval(intervalId)
     intervalId = null;
-    // document.body.style.backgroundColor = "white"
+    
     
 }
 
